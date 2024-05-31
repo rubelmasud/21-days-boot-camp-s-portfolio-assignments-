@@ -1,0 +1,89 @@
+/* navbar css classes start*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66px;
+}
+nav .logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FD6F00;
+}
+nav .nav-links{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+nav .nav-links li a{
+    font-size: 21px;
+    font-weight: 400;
+}
+nav .nav-links li.download-btn{
+background: #FD6F00;
+   padding: 10px;
+}
+/* navbar css classes end*/
+/* banner css classes start*/
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+   padding-top: 40px;
+}
+.banner .banner-text .description{
+    max-width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+    margin: 20px 0;
+}
+.banner .title h2{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 60px;
+   text-transform: uppercase;
+}
+.banner .title h2 .location{
+ color: #FD6F00;
+}
+.banner .my-skills ,.skill{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.banner .banner-btns{
+border: 1.5px solid rgba(255, 255, 255, 0.6);
+width: fit-content;
+padding: 7px ;
+border-radius: 9999px;
+margin: 20px 0;
+}
+.banner .banner-btns button{
+background: #FD6F00;
+border: none;
+border-radius: 9999px;
+color: #fff;
+font-size: 22px;
+padding: 10px 30px;
+font-weight: 400;
+width: fit-content;
+cursor: pointer;
+}
+.banner .banner-btns button.btn-2{
+background: transparent;
+}
+.banner .socials-links{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.banner .socials-links i{
+color: #fff;
+opacity: 50%;
+font-size: 32px;
+}
+
+/* banner css classes end*/
