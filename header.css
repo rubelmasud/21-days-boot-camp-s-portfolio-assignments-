@@ -1,4 +1,6 @@
 /* navbar css classes start*/
+
+
 nav{
     display: flex;
     align-items: center;
@@ -84,6 +86,21 @@ gap: 20px;
 color: #fff;
 opacity: 50%;
 font-size: 32px;
+}
+
+
+/* skills-slider */
+
+.skills-slider{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: black;
+    color: #fff;
+    height: 140px;
+    overflow: hidden;
+    justify-content: left; 
+transform: rotate(-5deg);
 }
 
 /* banner css classes end*/

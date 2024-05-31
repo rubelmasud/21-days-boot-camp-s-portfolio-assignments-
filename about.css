@@ -1,0 +1,41 @@
+.about{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .parsonal-info {
+ width: 50%;
+}
+.about .parsonal-info .title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    padding: 16px 0;
+}
+.about .parsonal-info .pera{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+}
+.about .years-of-experience{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+direction: rtl;
+}
+.about .years-of-experience .ratting{ 
+color: #FD6F00;
+}
+.about .years-of-experience h2{ 
+    font-size: 47px;
+    font-weight: 700;
+    color: #fff;
+}
+.about .years-of-experience h6{ 
+
+        font-size: 20px;
+        font-weight: 400;
+    color: #fff;
+}
