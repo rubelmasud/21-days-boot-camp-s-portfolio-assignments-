@@ -100,7 +100,9 @@ font-size: 32px;
     height: 140px;
     overflow: hidden;
     justify-content: left; 
-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
+
+
 
 /* banner css classes end*/

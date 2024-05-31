@@ -1,0 +1,53 @@
+.experience{
+    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 100px;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: left;
+}
+.experience .my-experience{
+   width: 40%; 
+}
+.experience .my-experience .sub-title{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+.experience .my-experience .title {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 20px 0;
+}
+.experience .my-experience .pera {
+        font-size: 18px;
+        font-weight: 400;
+}
+.experience .my-educations-experience {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       width: 40%;
+}
+.experience .my-educations-experience .experience-row {
+    border-bottom: 1px solid #676666;
+    padding: 10px 0;
+   
+}
+.experience .my-educations-experience .experience-row p{
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+}
+.experience .my-educations-experience .experience-row p span.year{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+}
+.experience .my-educations-experience .experience-row .position{
+        font-size: 32px;
+        font-weight: 700;
+        padding: 10px 0;
+}
